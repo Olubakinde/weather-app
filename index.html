@@ -8,35 +8,23 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-switcher">
+        <label for="theme-switcher" class="slider"></label>
+    </div>
     <div class="card">
         <div class="search">
-            <input type="text" placeholder="Enter city name" spellcheck="false">
-            <button><img src="./img/search.png" alt="Search"></button>
+            <input type="text" placeholder="Enter city">
+            <button>Search</button>
         </div>
-        <div class="error">
-            <p>Invalid city name</p>
+        <img class="weather-icon" src="" alt="Weather Icon">
+        <div class="weather-details">
+            <div class="city">City</div>
+            <div class="temp">Temperature</div>
+            <div class="humidity"> 0%</div>
+            <div class="wind"> 0 km/h</div>
         </div>
-        <div class="weather">
-            <img src="./img/rain.png" class="weather-icon" alt="Weather Icon">
-            <h1 class="temp">22°C</h1>
-            <h2 class="city">New York</h2>
-            <div class="details">
-                <div class="col">
-                    <img src="./img/hum.png" alt="Humidity">
-                    <div>
-                        <p class="humidity">50%</p>
-                        <p>Humidity</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <img src="./img/winds.png" alt="Wind Speed">
-                    <div>
-                        <p class="wind">15 km/h</p>
-                        <p>Wind Speed</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="error">City not found!</div>
     </div>
 </body>
 </html>
