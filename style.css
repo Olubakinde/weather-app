@@ -317,7 +317,7 @@ body.light-theme {
 /* For Mobile Devices */
 @media (max-width: 480px) {
     .card {
-        width: 100%;
+        width: 90%;
         padding: 15px;
     }
 
