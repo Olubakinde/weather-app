@@ -279,7 +279,7 @@ body.light-theme {
 @media (max-width: 768px) {
     .card {
         width: 90%;
-        padding: 40px;
+        padding: 20px;
     }
 
     .weather-icon {
@@ -318,7 +318,7 @@ body.light-theme {
 @media (max-width: 480px) {
     .card {
         width: 100%;
-        padding: 30px;
+        padding: 15px;
     }
 
     .weather-icon {
